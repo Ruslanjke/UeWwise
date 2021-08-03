@@ -9,6 +9,25 @@
 							<ObjectRef Name="System" ID="{EA899660-E808-42C3-B220-82F418B8030F}" WorkUnitID="{5B762EFC-6141-4921-BB4C-598E1146940A}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="hall" ID="{A1FC716D-6C04-48CD-99A6-2D9B7CE63EF0}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Guns" ID="{B35D266A-CE6E-40A1-B197-14C12F9C21B1}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+									<ObjectRef Name="LR_Slap_with_CrossFeed" ID="{30319A92-C5AC-437A-9864-430059762933}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="small_room" ID="{0B20C460-1223-414D-9E7C-0CAE44AFCC9F}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

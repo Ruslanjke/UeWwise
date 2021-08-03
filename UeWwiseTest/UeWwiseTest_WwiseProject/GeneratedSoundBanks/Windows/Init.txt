@@ -1,6 +1,15 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3633416828	hall			\Default Work Unit\Master Audio Bus\hall	
+	4103918620	small_room			\Default Work Unit\Master Audio Bus\small_room	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1232017842	LR_Slap_with_CrossFeed	Wwise Stereo Delay			
+	1990128658	Room_Medium	Wwise RoomVerb			
+	4113267698	Hall_Guns	Wwise RoomVerb			
+
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			

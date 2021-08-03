@@ -11,6 +11,18 @@ Switch	ID	Name	Switch Group			Notes
 	4169408098	asphalt	surface_type_footsteps			
 	4248645337	grass	surface_type_footsteps			
 
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3633416828	hall			\Default Work Unit\Master Audio Bus\hall	
+	4103918620	small_room			\Default Work Unit\Master Audio Bus\small_room	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1232017842	LR_Slap_with_CrossFeed	Wwise Stereo Delay			
+	1990128658	Room_Medium	Wwise RoomVerb			
+	4113267698	Hall_Guns	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	32461708	PL_footsteps_water6	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_water6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\water\PL_footsteps_water6		112580
 	39281479	PL_footsteps_ground13	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_ground13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\ground\PL_footsteps_ground13		81956

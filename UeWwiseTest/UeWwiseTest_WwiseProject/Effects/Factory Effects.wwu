@@ -871,24 +871,25 @@
 										<Property Name="Density" Type="Real32" Value="70"/>
 										<Property Name="ERLevel" Type="Real32" Value="-16"/>
 										<Property Name="ERPattern" Type="int32" Value="12"/>
+										<Property Name="EnableToneControls" Type="bool" Value="True"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
 										<Property Name="Filter1Gain" Type="Real32" Value="1"/>
 										<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
 										<Property Name="Filter2Freq" Type="Real32" Value="9860"/>
 										<Property Name="Filter2Gain" Type="Real32" Value="-2.5"/>
-										<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+										<Property Name="Filter3Freq" Type="Real32" Value="6100"/>
 										<Property Name="Filter3Gain" Type="Real32" Value="1"/>
 										<Property Name="HFDamping" Type="Real32" Value="3"/>
-										<Property Name="PreDelay" Type="Real32" Value="137"/>
+										<Property Name="PreDelay" Type="Real32" Value="46"/>
 										<Property Name="Quality" Type="int32" Value="14"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-21"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-19"/>
 										<Property Name="RoomShape" Type="Real32" Value="55"/>
-										<Property Name="RoomSize" Type="Real32" Value="45"/>
+										<Property Name="RoomSize" Type="Real32" Value="23"/>
 									</PropertyList>
 								</Effect>
 								<Effect Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<PropertyList>
-										<Property Name="DecayTime" Type="Real32" Value="4.9"/>
+										<Property Name="DecayTime" Type="Real32" Value="7"/>
 										<Property Name="Density" Type="Real32" Value="70"/>
 										<Property Name="ERLevel" Type="Real32" Value="-23"/>
 										<Property Name="ERPattern" Type="int32" Value="15"/>
@@ -1206,7 +1207,6 @@
 										<Property Name="HFDamping" Type="Real32" Value="2.85"/>
 										<Property Name="PreDelay" Type="Real32" Value="38"/>
 										<Property Name="Quality" Type="int32" Value="10"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
 										<Property Name="RoomShape" Type="Real32" Value="0"/>
 										<Property Name="RoomSize" Type="Real32" Value="20"/>
 									</PropertyList>
@@ -1285,7 +1285,7 @@
 										<Property Name="PreDelay" Type="Real32" Value="12"/>
 										<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
 										<Property Name="RoomShape" Type="Real32" Value="55"/>
-										<Property Name="RoomSize" Type="Real32" Value="15"/>
+										<Property Name="RoomSize" Type="Real32" Value="60"/>
 										<Property Name="StereoWidth" Type="Real32" Value="90"/>
 									</PropertyList>
 								</Effect>
@@ -1751,13 +1751,16 @@
 						<Effect Name="LR_Slap_with_CrossFeed" ID="{30319A92-C5AC-437A-9864-430059762933}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
 							<PropertyList>
 								<Property Name="EnableCrossFeed" Type="bool" Value="True"/>
+								<Property Name="EnableFeedback" Type="bool" Value="True"/>
 								<Property Name="FilterFrequency" Type="Real32" Value="261"/>
 								<Property Name="FilterGain" Type="Real32" Value="10.5"/>
 								<Property Name="LeftCrossfeed" Type="Real32" Value="-20"/>
-								<Property Name="LeftDelayTime" Type="Real32" Value="0.29"/>
+								<Property Name="LeftDelayTime" Type="Real32" Value="0.4"/>
+								<Property Name="LeftFeedback" Type="Real32" Value="-10.8"/>
 								<Property Name="RightCrossfeed" Type="Real32" Value="-20"/>
-								<Property Name="RightDelayTime" Type="Real32" Value="0.43"/>
-								<Property Name="WetLevel" Type="Real32" Value="-6"/>
+								<Property Name="RightDelayTime" Type="Real32" Value="0.44"/>
+								<Property Name="RightFeedback" Type="Real32" Value="-11.3"/>
+								<Property Name="WetLevel" Type="Real32" Value="-17"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Underwater_Echoes" ID="{3C6B127B-9DAE-4879-A4ED-75DF209310EC}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">

@@ -11,12 +11,16 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2953616821">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2637461564">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="3633416828" Name="hall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\hall"/>
+				<AuxBus Id="4103918620" Name="small_room" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\small_room"/>
+			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="1426509270">
+		<SoundBank Id="2228651116" Language="SFX" Hash="2562478205">
 			<ObjectPath>\SoundBanks\Default Work Unit\main_SoundBank</ObjectPath>
 			<ShortName>main_SoundBank</ShortName>
 			<Path>main_SoundBank.bnk</Path>
@@ -291,6 +295,10 @@
 					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
+			<IncludedAuxBusses>
+				<AuxBus Id="3633416828" Name="hall" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\hall"/>
+				<AuxBus Id="4103918620" Name="small_room" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\small_room"/>
+			</IncludedAuxBusses>
 			<SwitchGroups>
 				<SwitchGroup Id="2139049453" Name="surface_type_footsteps" ObjectPath="\Switches\Default Work Unit\surface_type_footsteps">
 					<Switches>
