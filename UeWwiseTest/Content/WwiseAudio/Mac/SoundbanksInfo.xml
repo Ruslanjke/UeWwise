@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2637461564">
+		<SoundBank Id="1355168291" Language="SFX" Hash="893302840">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -20,7 +20,7 @@
 				<AuxBus Id="4103918620" Name="small_room" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\small_room"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="2562478205">
+		<SoundBank Id="2228651116" Language="SFX" Hash="3048511105">
 			<ObjectPath>\SoundBanks\Default Work Unit\main_SoundBank</ObjectPath>
 			<ShortName>main_SoundBank</ShortName>
 			<Path>main_SoundBank.bnk</Path>
