@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2625206812	pl_footsteps_event			\Default Work Unit\pl_footsteps_event	
+	3007184904	pl_fire			\Default Work Unit\pl_fire	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2139049453	surface_type_footsteps			\Default Work Unit\surface_type_footsteps	
@@ -7,14 +8,18 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 Switch	ID	Name	Switch Group			Notes
 	2058049674	wood	surface_type_footsteps			
 	2654748154	water	surface_type_footsteps			
+	4169408098	asphalt	surface_type_footsteps			
 	4248645337	grass	surface_type_footsteps			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	32461708	PL_footsteps_water6	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_water6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\water\PL_footsteps_water6		112580
 	39281479	PL_footsteps_ground13	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_ground13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\ground\PL_footsteps_ground13		81956
 	44914041	PL_footsteps_wood1	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_wood1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\wood\PL_footsteps_wood1		52840
+	55835369	Sci-fi, Weapon, Rifle, Medium Shot SND7230	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\Sci-fi, Weapon, Rifle, Medium Shot SND7230_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sci-fi, Weapon, Rifle, Medium Shot SND7230		275552
 	71977973	PL_footsteps_wood5	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_wood5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\wood\PL_footsteps_wood5		51428
+	106929595	pl_foosteps_asphalt_walk5	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\pl_foosteps_asphalt_walk5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\asphalt\pl_foosteps_asphalt_walk5		96064
 	116390331	PL_footsteps_cloth4	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_cloth4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cloth\PL_footsteps_cloth4		129724
+	125637085	pl_foosteps_asphalt_walk7	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\pl_foosteps_asphalt_walk7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\asphalt\pl_foosteps_asphalt_walk7		96064
 	134520881	PL_footsteps_cloth3	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_cloth3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cloth\PL_footsteps_cloth3		129724
 	155975524	PL_footsteps_cloth2	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_cloth2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cloth\PL_footsteps_cloth2		129724
 	169273213	PL_footsteps_wood4	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_wood4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\wood\PL_footsteps_wood4		59436
@@ -33,6 +38,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	387865004	PL_footsteps_cloth1	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_cloth1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cloth\PL_footsteps_cloth1		129724
 	400407035	PL_footsteps_cloth7	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_cloth7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cloth\PL_footsteps_cloth7		129724
 	435047883	PL_footsteps_wood9	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_wood9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\wood\PL_footsteps_wood9		87876
+	482416385	pl_foosteps_asphalt_walk8	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\pl_foosteps_asphalt_walk8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\asphalt\pl_foosteps_asphalt_walk8		96064
 	485615207	PL_footsteps_ground8	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_ground8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\ground\PL_footsteps_ground8		88424
 	489951342	PL_footsteps_wood2	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_wood2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\wood\PL_footsteps_wood2		87876
 	504656552	PL_footsteps_ground7	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_ground7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\ground\PL_footsteps_ground7		88424
@@ -40,11 +46,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	560680273	PL_footsteps_ground11	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_ground11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\ground\PL_footsteps_ground11		84452
 	570625970	PL_footsteps_wood10	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_wood10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\wood\PL_footsteps_wood10		87876
 	580761807	PL_footsteps_ground2	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_ground2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\ground\PL_footsteps_ground2		91232
+	587514056	pl_foosteps_asphalt_walk3	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\pl_foosteps_asphalt_walk3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\asphalt\pl_foosteps_asphalt_walk3		96064
 	611392308	PL_footsteps_ground14	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_ground14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\ground\PL_footsteps_ground14		76360
 	639681205	PL_footsteps_water2	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_water2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\water\PL_footsteps_water2		111048
+	653666856	pl_foosteps_asphalt_walk6	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\pl_foosteps_asphalt_walk6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\asphalt\pl_foosteps_asphalt_walk6		96064
+	662802409	pl_foosteps_asphalt_walk9	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\pl_foosteps_asphalt_walk9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\asphalt\pl_foosteps_asphalt_walk9		96064
+	761874420	pl_foosteps_asphalt_walk2	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\pl_foosteps_asphalt_walk2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\asphalt\pl_foosteps_asphalt_walk2		88228
+	796752851	pl_foosteps_asphalt_walk4	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\pl_foosteps_asphalt_walk4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\asphalt\pl_foosteps_asphalt_walk4		96064
 	820134590	PL_footsteps_water3	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_water3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\water\PL_footsteps_water3		122888
 	824902360	PL_footsteps_water4	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_water4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\water\PL_footsteps_water4		130516
+	858013329	pl_foosteps_asphalt_walk10	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\pl_foosteps_asphalt_walk10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\asphalt\pl_foosteps_asphalt_walk10		96064
 	858706980	PL_footsteps_ground10	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_ground10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\ground\PL_footsteps_ground10		87876
+	901948956	pl_foosteps_asphalt_walk1	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\pl_foosteps_asphalt_walk1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\asphalt\pl_foosteps_asphalt_walk1		96064
 	914163611	PL_footsteps_ground6	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_ground6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\ground\PL_footsteps_ground6		88892
 	950067856	PL_footsteps_ground4	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_ground4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\ground\PL_footsteps_ground4		89828
 	1035611776	PL_footsteps_wood3	Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\.cache\Mac\SFX\PL_footsteps_wood3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pl_footsteps\wood\PL_footsteps_wood3		87876

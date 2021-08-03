@@ -16,11 +16,19 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="3991476141">
+		<SoundBank Id="2228651116" Language="SFX" Hash="1426509270">
 			<ObjectPath>\SoundBanks\Default Work Unit\main_SoundBank</ObjectPath>
 			<ShortName>main_SoundBank</ShortName>
 			<Path>main_SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3007184904" Name="pl_fire" ObjectPath="\Events\Default Work Unit\pl_fire">
+					<IncludedMemoryFiles>
+						<File Id="55835369" Language="SFX">
+							<ShortName>Sci-fi, Weapon, Rifle, Medium Shot SND7230.wav</ShortName>
+							<Path>SFX/Sci-fi, Weapon, Rifle, Medium Shot SND7230_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2625206812" Name="pl_footsteps_event" ObjectPath="\Events\Default Work Unit\pl_footsteps_event">
 					<IncludedMemoryFiles>
 						<File Id="32461708" Language="SFX">
@@ -39,9 +47,17 @@
 							<ShortName>PL_footsteps_wood5.wav</ShortName>
 							<Path>SFX/PL_footsteps_wood5_10C4C929.wem</Path>
 						</File>
+						<File Id="106929595" Language="SFX">
+							<ShortName>pl_foosteps_asphalt_walk5.wav</ShortName>
+							<Path>SFX/pl_foosteps_asphalt_walk5_10C4C929.wem</Path>
+						</File>
 						<File Id="116390331" Language="SFX">
 							<ShortName>PL_footsteps_cloth4.wav</ShortName>
 							<Path>SFX/PL_footsteps_cloth4_10C4C929.wem</Path>
+						</File>
+						<File Id="125637085" Language="SFX">
+							<ShortName>pl_foosteps_asphalt_walk7.wav</ShortName>
+							<Path>SFX/pl_foosteps_asphalt_walk7_10C4C929.wem</Path>
 						</File>
 						<File Id="134520881" Language="SFX">
 							<ShortName>PL_footsteps_cloth3.wav</ShortName>
@@ -115,6 +131,10 @@
 							<ShortName>PL_footsteps_wood9.wav</ShortName>
 							<Path>SFX/PL_footsteps_wood9_10C4C929.wem</Path>
 						</File>
+						<File Id="482416385" Language="SFX">
+							<ShortName>pl_foosteps_asphalt_walk8.wav</ShortName>
+							<Path>SFX/pl_foosteps_asphalt_walk8_10C4C929.wem</Path>
+						</File>
 						<File Id="485615207" Language="SFX">
 							<ShortName>PL_footsteps_ground8.wav</ShortName>
 							<Path>SFX/PL_footsteps_ground8_10C4C929.wem</Path>
@@ -143,6 +163,10 @@
 							<ShortName>PL_footsteps_ground2.wav</ShortName>
 							<Path>SFX/PL_footsteps_ground2_10C4C929.wem</Path>
 						</File>
+						<File Id="587514056" Language="SFX">
+							<ShortName>pl_foosteps_asphalt_walk3.wav</ShortName>
+							<Path>SFX/pl_foosteps_asphalt_walk3_10C4C929.wem</Path>
+						</File>
 						<File Id="611392308" Language="SFX">
 							<ShortName>PL_footsteps_ground14.wav</ShortName>
 							<Path>SFX/PL_footsteps_ground14_10C4C929.wem</Path>
@@ -150,6 +174,22 @@
 						<File Id="639681205" Language="SFX">
 							<ShortName>PL_footsteps_water2.wav</ShortName>
 							<Path>SFX/PL_footsteps_water2_10C4C929.wem</Path>
+						</File>
+						<File Id="653666856" Language="SFX">
+							<ShortName>pl_foosteps_asphalt_walk6.wav</ShortName>
+							<Path>SFX/pl_foosteps_asphalt_walk6_10C4C929.wem</Path>
+						</File>
+						<File Id="662802409" Language="SFX">
+							<ShortName>pl_foosteps_asphalt_walk9.wav</ShortName>
+							<Path>SFX/pl_foosteps_asphalt_walk9_10C4C929.wem</Path>
+						</File>
+						<File Id="761874420" Language="SFX">
+							<ShortName>pl_foosteps_asphalt_walk2.wav</ShortName>
+							<Path>SFX/pl_foosteps_asphalt_walk2_10C4C929.wem</Path>
+						</File>
+						<File Id="796752851" Language="SFX">
+							<ShortName>pl_foosteps_asphalt_walk4.wav</ShortName>
+							<Path>SFX/pl_foosteps_asphalt_walk4_10C4C929.wem</Path>
 						</File>
 						<File Id="820134590" Language="SFX">
 							<ShortName>PL_footsteps_water3.wav</ShortName>
@@ -159,9 +199,17 @@
 							<ShortName>PL_footsteps_water4.wav</ShortName>
 							<Path>SFX/PL_footsteps_water4_10C4C929.wem</Path>
 						</File>
+						<File Id="858013329" Language="SFX">
+							<ShortName>pl_foosteps_asphalt_walk10.wav</ShortName>
+							<Path>SFX/pl_foosteps_asphalt_walk10_10C4C929.wem</Path>
+						</File>
 						<File Id="858706980" Language="SFX">
 							<ShortName>PL_footsteps_ground10.wav</ShortName>
 							<Path>SFX/PL_footsteps_ground10_10C4C929.wem</Path>
+						</File>
+						<File Id="901948956" Language="SFX">
+							<ShortName>pl_foosteps_asphalt_walk1.wav</ShortName>
+							<Path>SFX/pl_foosteps_asphalt_walk1_10C4C929.wem</Path>
 						</File>
 						<File Id="914163611" Language="SFX">
 							<ShortName>PL_footsteps_ground6.wav</ShortName>
@@ -180,7 +228,7 @@
 							<Path>SFX/PL_footsteps_water7_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{CB5150E0-48E0-4CFB-AF4D-1EC2F382714C}</DefaultSwitchValue>
+					<DefaultSwitchValue>{08A99169-4A08-4ACB-9697-F75315976215}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{CB5150E0-48E0-4CFB-AF4D-1EC2F382714C}">
 							<Media>
@@ -226,6 +274,20 @@
 								<File Id="1055288591"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{08A99169-4A08-4ACB-9697-F75315976215}">
+							<Media>
+								<File Id="106929595"/>
+								<File Id="125637085"/>
+								<File Id="482416385"/>
+								<File Id="587514056"/>
+								<File Id="653666856"/>
+								<File Id="662802409"/>
+								<File Id="761874420"/>
+								<File Id="796752851"/>
+								<File Id="858013329"/>
+								<File Id="901948956"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
@@ -235,6 +297,7 @@
 						<Switch Id="2058049674" Name="wood" ObjectPath="\Switches\Default Work Unit\surface_type_footsteps\wood"/>
 						<Switch Id="2654748154" Name="water" ObjectPath="\Switches\Default Work Unit\surface_type_footsteps\water"/>
 						<Switch Id="4248645337" Name="grass" ObjectPath="\Switches\Default Work Unit\surface_type_footsteps\grass"/>
+						<Switch Id="4169408098" Name="asphalt" ObjectPath="\Switches\Default Work Unit\surface_type_footsteps\asphalt"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>

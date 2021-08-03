@@ -3,6 +3,8 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{027BD886-6469-43A0-A980-6A90FC3D0526}">
 			<PropertyList>
+				<Property Name="Event Action List\{12D930E4-2273-47AF-B5BF-16058581D1D1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D7ABF602-2D1D-4595-892A-9E3AE36B10EE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>

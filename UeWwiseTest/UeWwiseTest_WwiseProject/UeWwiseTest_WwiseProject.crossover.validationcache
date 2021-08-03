@@ -3,10 +3,10 @@
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1627992676" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\UeWwiseTest_WwiseProject.wproj" DateLow="1627992676" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1627992676" DateHigh="0"/>
-	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1627994409" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1628000686" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\States\Default Work Unit.wwu" DateLow="1627992676" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1627992676" DateHigh="0"/>
-	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1627994435" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1628000339" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Queries\Factory Queries.wwu" DateLow="1627308828" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1627992676" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1627308828" DateHigh="0"/>
@@ -16,7 +16,7 @@
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1627992676" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1627992676" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1627992676" DateHigh="0"/>
-	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Events\Default Work Unit.wwu" DateLow="1627994409" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Events\Default Work Unit.wwu" DateLow="1628000339" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Effects\Factory Effects.wwu" DateLow="1627308828" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1627992676" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1627992676" DateHigh="0"/>
@@ -25,5 +25,5 @@
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1627994409" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1627992676" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1627992676" DateHigh="0"/>
-	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1627994409" DateHigh="0"/>
+	<ValidationCacheItem File="Z:\Volumes\Work\UE Stuff\Projects\UeWwise\UeWwiseTest\UeWwiseTest_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1628000686" DateHigh="0"/>
 </ValidationCache>

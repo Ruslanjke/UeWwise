@@ -178,7 +178,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
 						</Reference>
 						<Reference Name="DefaultSwitchOrState">
-							<ObjectRef Name="grass" ID="{CB5150E0-48E0-4CFB-AF4D-1EC2F382714C}" WorkUnitID="{13B46276-4F4E-48EA-A784-339A3A252348}"/>
+							<ObjectRef Name="asphalt" ID="{08A99169-4A08-4ACB-9697-F75315976215}" WorkUnitID="{13B46276-4F4E-48EA-A784-339A3A252348}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFBC8393-FFB7-4A5B-9BAC-FF994587C5F2}"/>
@@ -512,6 +512,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="wood" ID="{9726AF7B-3422-456E-A2EE-2FDE9002527E}" ShortID="604966596">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
@@ -770,7 +777,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -939,9 +946,244 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="asphalt" ID="{DC047A18-115C-421A-B4EB-21F9293AC9C3}" ShortID="401797920">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFBC8393-FFB7-4A5B-9BAC-FF994587C5F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="pl_foosteps_asphalt_walk1" ID="{021BE1C3-466B-47A5-AF70-607F5362FDA3}" ShortID="678733835">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFBC8393-FFB7-4A5B-9BAC-FF994587C5F2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pl_foosteps_asphalt_walk1" ID="{CC16DFB2-92EC-4C28-97E9-4B55C4DC59C3}">
+											<Language>SFX</Language>
+											<AudioFile>pl_foosteps_asphalt_walk1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="901948956"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pl_foosteps_asphalt_walk1" ID="{CC16DFB2-92EC-4C28-97E9-4B55C4DC59C3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pl_foosteps_asphalt_walk2" ID="{46D719EB-9CFB-469C-A466-29D814C3EE5D}" ShortID="907696793">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFBC8393-FFB7-4A5B-9BAC-FF994587C5F2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pl_foosteps_asphalt_walk2" ID="{260A85E5-FCC5-4F88-BB35-5861B0EF6DB3}">
+											<Language>SFX</Language>
+											<AudioFile>pl_foosteps_asphalt_walk2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="761874420"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pl_foosteps_asphalt_walk2" ID="{260A85E5-FCC5-4F88-BB35-5861B0EF6DB3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pl_foosteps_asphalt_walk3" ID="{A64F9F3D-8A35-4118-B769-F3D1299D2C89}" ShortID="675504955">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFBC8393-FFB7-4A5B-9BAC-FF994587C5F2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pl_foosteps_asphalt_walk3" ID="{38287568-0838-457A-B927-B9C90D768C3E}">
+											<Language>SFX</Language>
+											<AudioFile>pl_foosteps_asphalt_walk3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587514056"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pl_foosteps_asphalt_walk3" ID="{38287568-0838-457A-B927-B9C90D768C3E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pl_foosteps_asphalt_walk4" ID="{7805BA63-F138-4BF0-8C6E-6708D6636D7B}" ShortID="1056535482">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFBC8393-FFB7-4A5B-9BAC-FF994587C5F2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pl_foosteps_asphalt_walk4" ID="{1BB47DD2-49E6-432A-B06E-A8EC424B40C7}">
+											<Language>SFX</Language>
+											<AudioFile>pl_foosteps_asphalt_walk4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="796752851"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pl_foosteps_asphalt_walk4" ID="{1BB47DD2-49E6-432A-B06E-A8EC424B40C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pl_foosteps_asphalt_walk5" ID="{104921ED-5968-4D69-8243-42223EC12C82}" ShortID="610840812">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFBC8393-FFB7-4A5B-9BAC-FF994587C5F2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pl_foosteps_asphalt_walk5" ID="{83B7FBFF-022C-40DE-AC77-82C283B2876E}">
+											<Language>SFX</Language>
+											<AudioFile>pl_foosteps_asphalt_walk5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="106929595"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pl_foosteps_asphalt_walk5" ID="{83B7FBFF-022C-40DE-AC77-82C283B2876E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pl_foosteps_asphalt_walk6" ID="{E312C7BF-2C47-4E36-BC8B-62613A8B7F63}" ShortID="288712368">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFBC8393-FFB7-4A5B-9BAC-FF994587C5F2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pl_foosteps_asphalt_walk6" ID="{2DD0E24E-757C-4C0A-8FB1-D9D0B82C64C0}">
+											<Language>SFX</Language>
+											<AudioFile>pl_foosteps_asphalt_walk6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="653666856"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pl_foosteps_asphalt_walk6" ID="{2DD0E24E-757C-4C0A-8FB1-D9D0B82C64C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pl_foosteps_asphalt_walk7" ID="{C9E920F3-E2B5-48CC-9D0F-FC83A88BC781}" ShortID="202249964">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFBC8393-FFB7-4A5B-9BAC-FF994587C5F2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pl_foosteps_asphalt_walk7" ID="{88C84B5E-EEEE-42E1-B701-E09B93CA987B}">
+											<Language>SFX</Language>
+											<AudioFile>pl_foosteps_asphalt_walk7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="125637085"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pl_foosteps_asphalt_walk7" ID="{88C84B5E-EEEE-42E1-B701-E09B93CA987B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pl_foosteps_asphalt_walk8" ID="{AE869D74-2D9C-4B4F-8F91-3425E69AB081}" ShortID="146463415">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFBC8393-FFB7-4A5B-9BAC-FF994587C5F2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pl_foosteps_asphalt_walk8" ID="{8E4CA747-2D0B-428B-997B-4547F3F4B093}">
+											<Language>SFX</Language>
+											<AudioFile>pl_foosteps_asphalt_walk8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="482416385"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pl_foosteps_asphalt_walk8" ID="{8E4CA747-2D0B-428B-997B-4547F3F4B093}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pl_foosteps_asphalt_walk9" ID="{B3BB33C9-4EFC-47D8-B6D0-63741F1F981B}" ShortID="206654985">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFBC8393-FFB7-4A5B-9BAC-FF994587C5F2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pl_foosteps_asphalt_walk9" ID="{EADD8E26-5A49-4934-8D8B-F130B13BFDBB}">
+											<Language>SFX</Language>
+											<AudioFile>pl_foosteps_asphalt_walk9.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="662802409"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pl_foosteps_asphalt_walk9" ID="{EADD8E26-5A49-4934-8D8B-F130B13BFDBB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pl_foosteps_asphalt_walk10" ID="{569426CA-0C5E-4D15-8315-62AD81A58876}" ShortID="546123354">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFBC8393-FFB7-4A5B-9BAC-FF994587C5F2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pl_foosteps_asphalt_walk10" ID="{FA0D5B57-D32C-43F1-A2F2-AB37138A8D00}">
+											<Language>SFX</Language>
+											<AudioFile>pl_foosteps_asphalt_walk10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="858013329"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pl_foosteps_asphalt_walk10" ID="{FA0D5B57-D32C-43F1-A2F2-AB37138A8D00}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="asphalt" ID="{DC047A18-115C-421A-B4EB-21F9293AC9C3}"/>
+							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="ground" ID="{1436E735-CE30-4C17-9303-ED1EA7FE7D5D}"/>
 							</GroupingBehavior>
@@ -953,6 +1195,12 @@
 							</GroupingBehavior>
 						</GroupingBehaviorList>
 						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="asphalt" ID="{08A99169-4A08-4ACB-9697-F75315976215}"/>
+								<ItemList>
+									<ItemRef Name="asphalt" ID="{DC047A18-115C-421A-B4EB-21F9293AC9C3}"/>
+								</ItemList>
+							</Grouping>
 							<Grouping>
 								<SwitchRef Name="water" ID="{0A7179A7-E31D-4818-91EE-9C2C6A7C6166}"/>
 								<ItemList>
@@ -974,6 +1222,86 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<Sound Name="Sci-fi, Weapon, Rifle, Medium Shot SND7230" ID="{12B3E566-2E79-4D08-9FD2-2A491737D430}" ShortID="965872699">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{95163FF4-1153-4A9C-ABB3-A819C3F0F50D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="12"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{87A693D4-C932-4BFD-9862-3D984074CF0E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="24"/>
+											<Property Name="Min" Type="Real64" Value="-18"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>780</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{B0BEF2B5-18D4-4313-BB0A-9F99F6404BD1}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1EA4C2AE-7BDE-479F-AF18-4D97BF720C5B}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0FBAACD-3F68-45AF-AEA3-29897F4BA728}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFBC8393-FFB7-4A5B-9BAC-FF994587C5F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Sci-fi, Weapon, Rifle, Medium Shot SND7230" ID="{F3200BA2-F9F8-4104-8D3E-72C046B591E3}">
+							<Language>SFX</Language>
+							<AudioFile>Sci-fi, Weapon, Rifle, Medium Shot SND7230.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="55835369"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Sci-fi, Weapon, Rifle, Medium Shot SND7230" ID="{F3200BA2-F9F8-4104-8D3E-72C046B591E3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

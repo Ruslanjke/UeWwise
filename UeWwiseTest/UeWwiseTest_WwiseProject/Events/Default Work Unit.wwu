@@ -37,6 +37,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="pl_fire" ID="{12D930E4-2273-47AF-B5BF-16058581D1D1}">
+					<ChildrenList>
+						<Action Name="" ID="{755BDA1E-04BC-4053-89C2-463B8C04E732}" ShortID="1016442455">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sci-fi, Weapon, Rifle, Medium Shot SND7230" ID="{12B3E566-2E79-4D08-9FD2-2A491737D430}" WorkUnitID="{2DF521E7-29B1-4B1B-BDC6-C86AB84BCB5D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
