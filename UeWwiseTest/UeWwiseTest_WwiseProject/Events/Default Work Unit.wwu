@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F0A837FD-5BFD-4A59-8B4B-17F5EBEBBC88}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{F0A837FD-5BFD-4A59-8B4B-17F5EBEBBC88}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F0A837FD-5BFD-4A59-8B4B-17F5EBEBBC88}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="pl_footsteps_event" ID="{D7ABF602-2D1D-4595-892A-9E3AE36B10EE}">
+					<ChildrenList>
+						<Action Name="" ID="{44A5F383-AB1D-4898-8966-C3553A8BE957}" ShortID="566881372">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pl_footsteps" ID="{5B59BAC8-FA7A-4E46-BFFE-E00E710B1916}" WorkUnitID="{2DF521E7-29B1-4B1B-BDC6-C86AB84BCB5D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1A4D67F3-6EC5-46EB-AF0C-6997B29E794C}" ShortID="868011156">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{12793E59-64CB-4B29-A59C-A5E10A1111A2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.3"/>
+													<Property Name="Min" Type="Real64" Value="-0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Probability" Type="Real64" Value="57"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cloth" ID="{17177112-E136-40A0-B894-A38C388CAEDD}" WorkUnitID="{2DF521E7-29B1-4B1B-BDC6-C86AB84BCB5D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
