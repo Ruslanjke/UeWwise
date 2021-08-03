@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/ruslan/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Work/UE Stuff/Projects/UeWwise/UeWwiseTest/UeWwiseTest_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/ruslan/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Work/UE Stuff/Projects/UeWwise/UeWwiseTest/UeWwiseTest_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/ruslan/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Work/UE Stuff/Projects/UeWwise/UeWwiseTest/Content/WwiseAudio/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/ruslan/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Work/UE Stuff/Projects/UeWwise/UeWwiseTest/UeWwiseTest_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2953616821">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2228651116" Language="SFX" Hash="3991476141">
+			<ObjectPath>\SoundBanks\Default Work Unit\main_SoundBank</ObjectPath>
+			<ShortName>main_SoundBank</ShortName>
+			<Path>main_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2625206812" Name="pl_footsteps_event" ObjectPath="\Events\Default Work Unit\pl_footsteps_event">
+					<IncludedMemoryFiles>
+						<File Id="32461708" Language="SFX">
+							<ShortName>PL_footsteps_water6.wav</ShortName>
+							<Path>SFX/PL_footsteps_water6_10C4C929.wem</Path>
+						</File>
+						<File Id="39281479" Language="SFX">
+							<ShortName>PL_footsteps_ground13.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground13_10C4C929.wem</Path>
+						</File>
+						<File Id="44914041" Language="SFX">
+							<ShortName>PL_footsteps_wood1.wav</ShortName>
+							<Path>SFX/PL_footsteps_wood1_10C4C929.wem</Path>
+						</File>
+						<File Id="71977973" Language="SFX">
+							<ShortName>PL_footsteps_wood5.wav</ShortName>
+							<Path>SFX/PL_footsteps_wood5_10C4C929.wem</Path>
+						</File>
+						<File Id="116390331" Language="SFX">
+							<ShortName>PL_footsteps_cloth4.wav</ShortName>
+							<Path>SFX/PL_footsteps_cloth4_10C4C929.wem</Path>
+						</File>
+						<File Id="134520881" Language="SFX">
+							<ShortName>PL_footsteps_cloth3.wav</ShortName>
+							<Path>SFX/PL_footsteps_cloth3_10C4C929.wem</Path>
+						</File>
+						<File Id="155975524" Language="SFX">
+							<ShortName>PL_footsteps_cloth2.wav</ShortName>
+							<Path>SFX/PL_footsteps_cloth2_10C4C929.wem</Path>
+						</File>
+						<File Id="169273213" Language="SFX">
+							<ShortName>PL_footsteps_wood4.wav</ShortName>
+							<Path>SFX/PL_footsteps_wood4_10C4C929.wem</Path>
+						</File>
+						<File Id="179540418" Language="SFX">
+							<ShortName>PL_footsteps_wood6.wav</ShortName>
+							<Path>SFX/PL_footsteps_wood6_10C4C929.wem</Path>
+						</File>
+						<File Id="207045304" Language="SFX">
+							<ShortName>PL_footsteps_water5.wav</ShortName>
+							<Path>SFX/PL_footsteps_water5_10C4C929.wem</Path>
+						</File>
+						<File Id="214975148" Language="SFX">
+							<ShortName>PL_footsteps_ground3.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground3_10C4C929.wem</Path>
+						</File>
+						<File Id="216381242" Language="SFX">
+							<ShortName>PL_footsteps_ground12.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground12_10C4C929.wem</Path>
+						</File>
+						<File Id="230370747" Language="SFX">
+							<ShortName>PL_footsteps_ground1.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground1_10C4C929.wem</Path>
+						</File>
+						<File Id="270847841" Language="SFX">
+							<ShortName>PL_footsteps_water1.wav</ShortName>
+							<Path>SFX/PL_footsteps_water1_10C4C929.wem</Path>
+						</File>
+						<File Id="272042198" Language="SFX">
+							<ShortName>PL_footsteps_ground5.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground5_10C4C929.wem</Path>
+						</File>
+						<File Id="276091926" Language="SFX">
+							<ShortName>PL_footsteps_wood11.wav</ShortName>
+							<Path>SFX/PL_footsteps_wood11_10C4C929.wem</Path>
+						</File>
+						<File Id="288148836" Language="SFX">
+							<ShortName>PL_footsteps_wood7.wav</ShortName>
+							<Path>SFX/PL_footsteps_wood7_10C4C929.wem</Path>
+						</File>
+						<File Id="329667085" Language="SFX">
+							<ShortName>PL_footsteps_wood8.wav</ShortName>
+							<Path>SFX/PL_footsteps_wood8_10C4C929.wem</Path>
+						</File>
+						<File Id="338400328" Language="SFX">
+							<ShortName>PL_footsteps_ground9.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground9_10C4C929.wem</Path>
+						</File>
+						<File Id="369730095" Language="SFX">
+							<ShortName>PL_footsteps_cloth6.wav</ShortName>
+							<Path>SFX/PL_footsteps_cloth6_10C4C929.wem</Path>
+						</File>
+						<File Id="387865004" Language="SFX">
+							<ShortName>PL_footsteps_cloth1.wav</ShortName>
+							<Path>SFX/PL_footsteps_cloth1_10C4C929.wem</Path>
+						</File>
+						<File Id="400407035" Language="SFX">
+							<ShortName>PL_footsteps_cloth7.wav</ShortName>
+							<Path>SFX/PL_footsteps_cloth7_10C4C929.wem</Path>
+						</File>
+						<File Id="435047883" Language="SFX">
+							<ShortName>PL_footsteps_wood9.wav</ShortName>
+							<Path>SFX/PL_footsteps_wood9_10C4C929.wem</Path>
+						</File>
+						<File Id="485615207" Language="SFX">
+							<ShortName>PL_footsteps_ground8.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground8_10C4C929.wem</Path>
+						</File>
+						<File Id="489951342" Language="SFX">
+							<ShortName>PL_footsteps_wood2.wav</ShortName>
+							<Path>SFX/PL_footsteps_wood2_10C4C929.wem</Path>
+						</File>
+						<File Id="504656552" Language="SFX">
+							<ShortName>PL_footsteps_ground7.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground7_10C4C929.wem</Path>
+						</File>
+						<File Id="525147986" Language="SFX">
+							<ShortName>PL_footsteps_cloth5.wav</ShortName>
+							<Path>SFX/PL_footsteps_cloth5_10C4C929.wem</Path>
+						</File>
+						<File Id="560680273" Language="SFX">
+							<ShortName>PL_footsteps_ground11.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground11_10C4C929.wem</Path>
+						</File>
+						<File Id="570625970" Language="SFX">
+							<ShortName>PL_footsteps_wood10.wav</ShortName>
+							<Path>SFX/PL_footsteps_wood10_10C4C929.wem</Path>
+						</File>
+						<File Id="580761807" Language="SFX">
+							<ShortName>PL_footsteps_ground2.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground2_10C4C929.wem</Path>
+						</File>
+						<File Id="611392308" Language="SFX">
+							<ShortName>PL_footsteps_ground14.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground14_10C4C929.wem</Path>
+						</File>
+						<File Id="639681205" Language="SFX">
+							<ShortName>PL_footsteps_water2.wav</ShortName>
+							<Path>SFX/PL_footsteps_water2_10C4C929.wem</Path>
+						</File>
+						<File Id="820134590" Language="SFX">
+							<ShortName>PL_footsteps_water3.wav</ShortName>
+							<Path>SFX/PL_footsteps_water3_10C4C929.wem</Path>
+						</File>
+						<File Id="824902360" Language="SFX">
+							<ShortName>PL_footsteps_water4.wav</ShortName>
+							<Path>SFX/PL_footsteps_water4_10C4C929.wem</Path>
+						</File>
+						<File Id="858706980" Language="SFX">
+							<ShortName>PL_footsteps_ground10.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground10_10C4C929.wem</Path>
+						</File>
+						<File Id="914163611" Language="SFX">
+							<ShortName>PL_footsteps_ground6.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground6_10C4C929.wem</Path>
+						</File>
+						<File Id="950067856" Language="SFX">
+							<ShortName>PL_footsteps_ground4.wav</ShortName>
+							<Path>SFX/PL_footsteps_ground4_10C4C929.wem</Path>
+						</File>
+						<File Id="1035611776" Language="SFX">
+							<ShortName>PL_footsteps_wood3.wav</ShortName>
+							<Path>SFX/PL_footsteps_wood3_10C4C929.wem</Path>
+						</File>
+						<File Id="1055288591" Language="SFX">
+							<ShortName>PL_footsteps_water7.wav</ShortName>
+							<Path>SFX/PL_footsteps_water7_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{CB5150E0-48E0-4CFB-AF4D-1EC2F382714C}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{CB5150E0-48E0-4CFB-AF4D-1EC2F382714C}">
+							<Media>
+								<File Id="39281479"/>
+								<File Id="214975148"/>
+								<File Id="216381242"/>
+								<File Id="230370747"/>
+								<File Id="272042198"/>
+								<File Id="338400328"/>
+								<File Id="485615207"/>
+								<File Id="504656552"/>
+								<File Id="560680273"/>
+								<File Id="580761807"/>
+								<File Id="611392308"/>
+								<File Id="858706980"/>
+								<File Id="914163611"/>
+								<File Id="950067856"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AAB581D4-7C04-4663-97A9-FC30647633DA}">
+							<Media>
+								<File Id="44914041"/>
+								<File Id="71977973"/>
+								<File Id="169273213"/>
+								<File Id="179540418"/>
+								<File Id="276091926"/>
+								<File Id="288148836"/>
+								<File Id="329667085"/>
+								<File Id="435047883"/>
+								<File Id="489951342"/>
+								<File Id="570625970"/>
+								<File Id="1035611776"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0A7179A7-E31D-4818-91EE-9C2C6A7C6166}">
+							<Media>
+								<File Id="32461708"/>
+								<File Id="207045304"/>
+								<File Id="270847841"/>
+								<File Id="639681205"/>
+								<File Id="820134590"/>
+								<File Id="824902360"/>
+								<File Id="1055288591"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="2139049453" Name="surface_type_footsteps" ObjectPath="\Switches\Default Work Unit\surface_type_footsteps">
+					<Switches>
+						<Switch Id="2058049674" Name="wood" ObjectPath="\Switches\Default Work Unit\surface_type_footsteps\wood"/>
+						<Switch Id="2654748154" Name="water" ObjectPath="\Switches\Default Work Unit\surface_type_footsteps\water"/>
+						<Switch Id="4248645337" Name="grass" ObjectPath="\Switches\Default Work Unit\surface_type_footsteps\grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
